@@ -1,9 +1,9 @@
-package ai_ecommerce;
+package aiecommerce;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"aiecommerce"})
 public class AiEcommerceApplication {
 
 	public static void main(String[] args) {
